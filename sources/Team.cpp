@@ -8,13 +8,13 @@ Team::Team(Character *leader)
     members.push_back(leader);
 }
 
-Team::~Team()
-{
-    for (auto member : members)
-    {
-        delete member;
-    }
-}
+// Team::~Team()
+// {
+//     for (auto member : members)
+//     {
+//         delete member;
+//     }
+// }
 
 void Team::add(Character *Character)
 {

@@ -9,19 +9,19 @@ Team2::Team2(Character *leader)
     members.push_back(leader);
 }
 
-Team2::~Team2()
-{
-    for (auto member : members)
-    {
-        delete member;
-    }
-}
+// Team2::~Team2()
+// {
+//     for (auto member : members)
+//     {
+//         delete member;
+//     }
+// }
 
 void Team2::add(Character *Character)
 {
 }
 
-void Team2::attack(Team *enemy)
+void Team2::attack(Team2 *enemy)
 {
 }
 

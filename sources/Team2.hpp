@@ -16,9 +16,9 @@ namespace ariel {
         std::vector<Character*> members;
     public:
         Team2(Character* leader); 
-        ~Team2(); //destructor
+        // ~Team2(); //destructor
         void add(Character* character);
-        void attack(Team* enemy);
+        void attack(Team2* enemy);
         int stillAlive() ;
         void print();
     };

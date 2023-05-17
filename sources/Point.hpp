@@ -17,9 +17,9 @@ namespace ariel
         double y_cord;
 
     public:
-        Point(double x, double y);
+        Point(double _x_, double _y_);
         Point();
-        Point(Point &other);
+        // Point(Point &other);
         double distance(Point src)const;
         double getX()const;
         double getY()const;

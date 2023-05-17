@@ -9,19 +9,19 @@ SmartTeam::SmartTeam(Character *leader)
     members.push_back(leader);
 }
 
-SmartTeam::~SmartTeam()
-{
-    for (auto member : members)
-    {
-        delete member;
-    }
-}
+// SmartTeam::~SmartTeam()
+// {
+//     for (auto member : members)
+//     {
+//         delete member;
+//     }
+// }
 
 void SmartTeam::add(Character *Character)
 {
 }
 
-void SmartTeam::attack(Team *enemy)
+void SmartTeam::attack(SmartTeam *enemy)
 {
 }
 

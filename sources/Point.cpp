@@ -16,11 +16,11 @@ namespace ariel
         y_cord = 0.0;
     }
 
-    Point::Point(Point &other)
-    {
-        x_cord = other.getX();
-        y_cord = other.getY();
-    }
+    // Point::Point(Point &other)
+    // {
+    //     x_cord = other.getX();
+    //     y_cord = other.getY();
+    // }
 
     double Point::distance(Point dest) const
     {
