@@ -165,9 +165,17 @@ SUBCASE("Move method")
         Character* leader1 = new Character(Point(3.0, 4.0),100, "Leader1");
         Character* member1 = new Character(Point(5.0, 6.0),80, "Member1");
         Character* member2 = new Character(Point(7.0, 8.0),90, "Member2");
+        Character* member3 = new Character(Point(5.0, 6.0),80, "Member1");
+        Character* member4 = new Character(Point(7.0, 8.0),90, "Member2");
+        Character* member5 = new Character(Point(5.0, 6.0),80, "Member1");
+        
+        
         Team team1(leader1);
         team1.add(member1);
         team1.add(member2);
+        team3.add(member3);
+        team4.add(member4);
+        team.add(member5);
 
         Character* leader2 = new Character(Point(2.0, 3.0),120, "Leader2");
         Team team2(leader2);
